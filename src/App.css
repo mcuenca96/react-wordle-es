@@ -29,5 +29,21 @@
   width: 20px;
   height: 20px;
   border: #000000 2px solid;
+  text-transform: uppercase;
+  outline: none;
+  caret-color: transparent;
+  text-align: center;
+}
+
+.validWordInvalidPosition { 
+  background-color: orange;
+}
+
+.validWordValidPosition {
+  background-color: greenyellow;
+}
+
+.invalidWord {
+  background-color: red;
 }
 
